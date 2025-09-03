@@ -1,5 +1,5 @@
 // API service functions
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://productivity-mern-stack.onrender.com/api";
 
 async function fetchJSON(url, opts = {}) {
   const res = await fetch(url, { headers: { "Content-Type": "application/json" }, ...opts });
